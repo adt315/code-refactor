@@ -15,17 +15,16 @@ body {
     padding: 20px;
 }
 
-.header h1 {
+h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1
-.seo {
+span {
     color: #d9dcd6;
 } 
 
-.header div {
+.titles {
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
@@ -33,8 +32,9 @@ body {
     padding-top: 15px;
 }
 
-.header div ul li {
+li {
     display: inline-block;
+    list-style-type: none;
     margin-left: 25px;
 }
 
@@ -58,9 +58,7 @@ a {
     width: 75%;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+.content-segment {
     background-color: #0072bb;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -69,32 +67,27 @@ a {
     padding: 50px;
 }
 
-.search-engine-optimization img,
-.social-media-marketing img {
+.content-image {
+    max-height: 200px;
+}
+
+.left {
     float: left;
     margin-right: 25px;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
-    max-height: 200px;
+.right {
+    float: right;
+    margin-left: 25px;
 }
 
-.search-engine-optimization h2, 
-.online-reputation-management h2,
-.social-media-marketing h2 {
+.h2 {
     font-size: 36px;
     margin-bottom: 20px;
 }
 
 p {
     font-size: 16px;
-}
-
-.online-reputation-management img {
-    float: right;
-    margin-left: 25px;
 }
 
 .benefits {
@@ -109,35 +102,29 @@ p {
     width: 20%;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benefit-segment {
     margin-bottom: 32px;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefit-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.footer {
+footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 30px;
     text-align: center;
 }
 
-.footer h2 {
+#made {
     font-size: 20px;
 }
 
