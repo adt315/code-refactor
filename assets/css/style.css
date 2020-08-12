@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*--------------------- Navigation Bar ---------------------*/
 nav {
     background-color: #2a607c;
     color: #ffffff;
@@ -43,6 +44,7 @@ a {
     text-decoration: none;
 }
 
+/*---------------------- Hero Section ----------------------*/
 .hero {
     background-image: url("../images/rsz_digital-marketing-meeting.jpg");
     background-position: center;
@@ -52,6 +54,7 @@ a {
     width: 100%;
 }
 
+/*-------------------- Content Section ---------------------*/
 .content {
     display: inline-block;
     margin-left: 20px;
@@ -90,6 +93,7 @@ p {
     font-size: 16px;
 }
 
+/*-------------------- Benefits Section --------------------*/
 .benefits {
     background-color: #2589bd;
     clear: both;
@@ -102,7 +106,7 @@ p {
     width: 20%;
 }
 
-.benefit-segment {
+#lead-generation, #brand-awareness, #cost-management {
     margin-bottom: 32px;
 }
 
@@ -117,6 +121,7 @@ h3 {
     max-width: 150px;
 }
 
+/*------------------------- Footer -------------------------*/
 footer {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -124,7 +129,7 @@ footer {
     text-align: center;
 }
 
-#made {
+.made {
     font-size: 20px;
 }
 
