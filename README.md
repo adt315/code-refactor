@@ -20,6 +20,6 @@ Future additions to this website might include:
 - creating links to more details about Horiseon's services
 
 https://adt315.github.io/code-refactor/	
-<img src="code-refactor-screenshot" alt="Horiseon website screenshot">
+<img src="./assets/images/code-refactor-screenshot" alt="Horiseon website screenshot">
 
 
